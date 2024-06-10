@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kaisei Tokumin", serif;
+}
+body{
+    background-color: #1e1b17;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 0px 13px rgb(72, 70, 70);
+    align-items: center;
+}
+.nav .active{
+    background: transparent;
+    color: orange;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav .Contact{ 
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(255, 111, 0);
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav div img{
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero img{
+    width: 100vw;
+}
+.comment{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.comment p{
+    color: #847c47;
+    width: 600px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.comment h2{
+    font-size: 2.5rem;
+    color: white;
+    margin: 5px 0px;   
+}
+.comment span{
+    color: goldenrod;
+    margin-top: 50px;
+}
+.fotu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.fotu img{
+    height: 450px;
+    width: 1150px;
+    border-radius: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 200px;
+    background-color: #362d22;
+    border: none;
+    border-radius: 5px;
+}
+.card h3{
+    color: white;
+    font-size: 30px;
+}
+.card p{
+    color: #847c47;
+    font-size: 14px;
+    width: 350px; 
+}
+.s_cards{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-row: 500px 500px;
+    gap: 30px;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.aboutus{
+    width: 1150px;
+    display: grid;
+    grid-template-columns: 660px 550px;
+    gap: 80px;
+}
+.aboutus .text{
+    text-align: justify;
+}
+.text h3{
+    color: white;
+    font-size: 30px;
+}
+.text p{
+    color: #847c47;
+    font-size: 14px;
+}
+.image{
+    height: 300px;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+}
+.container .sponcers{
+    width: 100vw;
+    background-color: #312c22;
+    margin-top: 50px;
+}
+.sponcers{
+    width: 1150px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.logo img{
+    height: 150px;
+    width: 190px;
+}
+.container2{  
+    width: 100vw;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    columns: 2(300px);
+    gap: 30px;  
+    margin-left: 40px;;
+}
+.left{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left li{
+    color: whitesmoke;
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.center{
+    height: 300px;
+    width: 400px;
+    color: white;
+}
+.center h4{
+    font-size: 40px;
+    text-align: center;
+}
+.center p{
+    color: #847c47;
+    font-size: 12px;
+    width: 300px;
+    margin: 5px 20px 30px 20px  ;
+
+
+}
+.center .list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list li{
+    list-style: none;
+    font-size: 12px;
+
+}
+.list li span{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.right input{
+    height: 50px;
+    width: 300px;
+    margin: 20px 0px 0px 50px;
+}
+.right button{
+    height: 50px;
+    width: 300px;
+    margin: 0px 0px 00px 50px;
+    background-color: orangered;
+    color: whitesmoke;
+}
+.right p{
+    color: #847c47;
+    font-size: 12px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 22px;
+}
